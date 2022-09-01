@@ -9,12 +9,12 @@ import UIKit
 
 final class ShipHeaderView: UIView, ReusableView, NibLoadableView {
   
-  @IBOutlet private weak var shipImageView: UIImageView!
-  @IBOutlet private weak var shipNameLabel: UILabel!
-  @IBOutlet private weak var shipIconLabel: UILabel!
-  @IBOutlet private weak var shipCollectionView: UICollectionView!
+  @IBOutlet public weak var shipImageView: UIImageView!
+  @IBOutlet public weak var shipNameLabel: UILabel!
+  @IBOutlet public weak var shipIconLabel: UILabel!
+  @IBOutlet public weak var shipCollectionView: UICollectionView!
 
-  func configurateHeader(ship: WelcomeElement) {
+  func configurateHeader(ship: Ship) {
     shipImageView.image = UIImage(named: ship.flickrImages[0])
     shipNameLabel.text = ship.name
   }

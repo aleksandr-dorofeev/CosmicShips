@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-extension ShipViewController: UITableViewDelegate {
-  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    let heightForCell: CGFloat = 100
-    return heightForCell
-  }
-}
+//extension ShipViewController: UITableViewDelegate {
+//  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//    let heightForCell: CGFloat = 100
+//    return heightForCell
+//  }
+//}

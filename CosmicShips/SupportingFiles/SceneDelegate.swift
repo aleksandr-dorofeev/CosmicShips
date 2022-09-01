@@ -15,11 +15,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.windowScene = windowScene
-    let storyBoard = UIStoryboard(name: "Ship", bundle: nil)
-    let home = storyBoard.instantiateViewController(withIdentifier: "shipId")
+    let home = PageViewController()
     self.window?.rootViewController = home
     window?.makeKeyAndVisible()
   }
+}
 
   func sceneDidDisconnect(_ scene: UIScene) {
     // Called as the scene is being released by the system.
@@ -50,5 +50,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   }
 
 
-}
+
 

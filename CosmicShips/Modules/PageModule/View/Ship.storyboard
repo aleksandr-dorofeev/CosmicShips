@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u1X-CM-mg2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aYI-4m-6SJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -9,10 +9,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Ship Page View Controller-->
+        <scene sceneID="2a9-O5-6QX">
+            <objects>
+                <pageViewController storyboardIdentifier="pageShip" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="aYI-4m-6SJ" customClass="ShipPageViewController" customModule="CosmicShips" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPB-5Z-cn0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-999" y="49"/>
+        </scene>
         <!--Ship View Controller-->
         <scene sceneID="ePo-gg-0Nr">
             <objects>
-                <viewController storyboardIdentifier="shipId" id="WdP-Hs-cb6" customClass="ShipViewController" customModule="CosmicShips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="shipId" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WdP-Hs-cb6" customClass="ShipViewController" customModule="CosmicShips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QAy-bY-Viv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,21 +130,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="shipHeaderView" destination="l3y-rq-6py" id="JbY-6c-meB"/>
-                        <outlet property="shipTableView" destination="1Jg-lM-5xz" id="VyX-J9-2a1"/>
+                        <outlet property="shipHeaderView" destination="l3y-rq-6py" id="Kqm-NF-HSB"/>
+                        <outlet property="shipTableView" destination="1Jg-lM-5xz" id="hAW-Ys-nzx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7j-78-LhH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-130.43478260869566" y="48.883928571428569"/>
-        </scene>
-        <!--Ship Page View Controller-->
-        <scene sceneID="F6H-0e-sYb">
-            <objects>
-                <pageViewController storyboardIdentifier="oneShipSBId" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="u1X-CM-mg2" customClass="ShipPageViewController" customModule="CosmicShips" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ytl-X1-aS5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1004" y="49"/>
         </scene>
     </scenes>
     <resources>

@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		F84A341128B6669D00F914AB /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A341028B6669D00F914AB /* ExtensionUIView.swift */; };
 		F84A341328B6680800F914AB /* ExtensionUITableViewRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A341228B6680800F914AB /* ExtensionUITableViewRegister.swift */; };
+		F863961128BE07A60067A680 /* NetworkServiceContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961028BE07A60067A680 /* NetworkServiceContract.swift */; };
+		F863961328BE08390067A680 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961228BE08390067A680 /* NetworkService.swift */; };
+		F863961728BE0FE50067A680 /* ShipsScreenContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961628BE0FE50067A680 /* ShipsScreenContracts.swift */; };
+		F863961928BE107B0067A680 /* ShipListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961828BE107B0067A680 /* ShipListPresenter.swift */; };
+		F863961D28BE143F0067A680 /* BuilderContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961C28BE143F0067A680 /* BuilderContract.swift */; };
+		F863961F28BE14C30067A680 /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863961E28BE14C30067A680 /* AssemblyModuleBuilder.swift */; };
 		F87374D128B3EEA300E98AE8 /* ShipHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87374D028B3EEA300E98AE8 /* ShipHeaderView.swift */; };
 		F87374D928B4A88300E98AE8 /* ShipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87374D828B4A88300E98AE8 /* ShipModel.swift */; };
-		F87374EB28B53E9C00E98AE8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87374EA28B53E9C00E98AE8 /* Model.swift */; };
 		F87374ED28B61C5000E98AE8 /* ShipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87374EC28B61C5000E98AE8 /* ShipCell.swift */; };
 		F87374EF28B61C6F00E98AE8 /* ShipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F87374EE28B61C6F00E98AE8 /* ShipCell.xib */; };
 		F87374F228B61D9700E98AE8 /* ExtensionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87374F128B61D9700E98AE8 /* ExtensionDataSource.swift */; };
@@ -22,15 +27,20 @@
 		F8E63DD528B3902900B05631 /* ShipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E63DD428B3902900B05631 /* ShipViewController.swift */; };
 		F8E63DDA28B3902B00B05631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E63DD928B3902B00B05631 /* Assets.xcassets */; };
 		F8E63DDD28B3902B00B05631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E63DDB28B3902B00B05631 /* LaunchScreen.storyboard */; };
-		F8F2705A28B786EC00FFA60C /* ShipPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2705928B786EC00FFA60C /* ShipPageViewController.swift */; };
+		F8F2705A28B786EC00FFA60C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2705928B786EC00FFA60C /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F84A341028B6669D00F914AB /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
 		F84A341228B6680800F914AB /* ExtensionUITableViewRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUITableViewRegister.swift; sourceTree = "<group>"; };
+		F863961028BE07A60067A680 /* NetworkServiceContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceContract.swift; sourceTree = "<group>"; };
+		F863961228BE08390067A680 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F863961628BE0FE50067A680 /* ShipsScreenContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsScreenContracts.swift; sourceTree = "<group>"; };
+		F863961828BE107B0067A680 /* ShipListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipListPresenter.swift; sourceTree = "<group>"; };
+		F863961C28BE143F0067A680 /* BuilderContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderContract.swift; sourceTree = "<group>"; };
+		F863961E28BE14C30067A680 /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
 		F87374D028B3EEA300E98AE8 /* ShipHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipHeaderView.swift; sourceTree = "<group>"; };
 		F87374D828B4A88300E98AE8 /* ShipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipModel.swift; sourceTree = "<group>"; };
-		F87374EA28B53E9C00E98AE8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F87374EC28B61C5000E98AE8 /* ShipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipCell.swift; sourceTree = "<group>"; };
 		F87374EE28B61C6F00E98AE8 /* ShipCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShipCell.xib; sourceTree = "<group>"; };
 		F87374F128B61D9700E98AE8 /* ExtensionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDataSource.swift; sourceTree = "<group>"; };
@@ -43,7 +53,7 @@
 		F8E63DD928B3902B00B05631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E63DDC28B3902B00B05631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E63DDE28B3902B00B05631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8F2705928B786EC00FFA60C /* ShipPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipPageViewController.swift; sourceTree = "<group>"; };
+		F8F2705928B786EC00FFA60C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F863960E28BE07770067A680 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F863960F28BE07890067A680 /* Protocol */,
+				F863961228BE08390067A680 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		F863960F28BE07890067A680 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F863961028BE07A60067A680 /* NetworkServiceContract.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F863961428BE0F640067A680 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F863961828BE107B0067A680 /* ShipListPresenter.swift */,
+				F863961528BE0FCE0067A680 /* Protocols */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F863961528BE0FCE0067A680 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F863961628BE0FE50067A680 /* ShipsScreenContracts.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F863961A28BE14070067A680 /* Buider */ = {
+			isa = PBXGroup;
+			children = (
+				F863961E28BE14C30067A680 /* AssemblyModuleBuilder.swift */,
+				F8F2705928B786EC00FFA60C /* PageViewController.swift */,
+				F863961B28BE141D0067A680 /* Protocol */,
+			);
+			path = Buider;
+			sourceTree = "<group>";
+		};
+		F863961B28BE141D0067A680 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F863961C28BE143F0067A680 /* BuilderContract.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		F87374D228B3F2BD00E98AE8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				F87374D828B4A88300E98AE8 /* ShipModel.swift */,
-				F87374EA28B53E9C00E98AE8 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +175,7 @@
 		F88684D128B3E217000772B9 /* PageModule */ = {
 			isa = PBXGroup;
 			children = (
+				F863961428BE0F640067A680 /* Presenter */,
 				F88684D328B3E26D000772B9 /* View */,
 				F87374D728B4A86200E98AE8 /* Model */,
 			);
@@ -132,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				F8E63DD428B3902900B05631 /* ShipViewController.swift */,
-				F8F2705928B786EC00FFA60C /* ShipPageViewController.swift */,
 				F87374D028B3EEA300E98AE8 /* ShipHeaderView.swift */,
 				F88684D728B3E99E000772B9 /* Ship.storyboard */,
 			);
@@ -165,6 +226,8 @@
 		F8E63DCF28B3902900B05631 /* CosmicShips */ = {
 			isa = PBXGroup;
 			children = (
+				F863961A28BE14070067A680 /* Buider */,
+				F863960E28BE07770067A680 /* NetworkService */,
 				F88684D028B3E20D000772B9 /* Modules */,
 				F87374F028B61D6700E98AE8 /* Extensions  */,
 				F87374D228B3F2BD00E98AE8 /* Common */,
@@ -259,14 +322,19 @@
 			files = (
 				F8E63DD528B3902900B05631 /* ShipViewController.swift in Sources */,
 				F87374ED28B61C5000E98AE8 /* ShipCell.swift in Sources */,
+				F863961128BE07A60067A680 /* NetworkServiceContract.swift in Sources */,
 				F87374F428B61DAE00E98AE8 /* ExtensionDelegate.swift in Sources */,
 				F87374D928B4A88300E98AE8 /* ShipModel.swift in Sources */,
 				F84A341328B6680800F914AB /* ExtensionUITableViewRegister.swift in Sources */,
+				F863961328BE08390067A680 /* NetworkService.swift in Sources */,
+				F863961728BE0FE50067A680 /* ShipsScreenContracts.swift in Sources */,
 				F84A341128B6669D00F914AB /* ExtensionUIView.swift in Sources */,
 				F87374D128B3EEA300E98AE8 /* ShipHeaderView.swift in Sources */,
-				F8F2705A28B786EC00FFA60C /* ShipPageViewController.swift in Sources */,
+				F863961D28BE143F0067A680 /* BuilderContract.swift in Sources */,
+				F863961F28BE14C30067A680 /* AssemblyModuleBuilder.swift in Sources */,
+				F863961928BE107B0067A680 /* ShipListPresenter.swift in Sources */,
+				F8F2705A28B786EC00FFA60C /* PageViewController.swift in Sources */,
 				F87374F228B61D9700E98AE8 /* ExtensionDataSource.swift in Sources */,
-				F87374EB28B53E9C00E98AE8 /* Model.swift in Sources */,
 				F8E63DD128B3902900B05631 /* AppDelegate.swift in Sources */,
 				F8E63DD328B3902900B05631 /* SceneDelegate.swift in Sources */,
 			);

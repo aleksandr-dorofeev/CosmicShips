@@ -8,16 +8,16 @@
 import Foundation
 import UIKit
 
-extension ShipViewController: UITableViewDataSource {
-  
-  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell: ShipCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-    let ships = ships?[indexPath.row]
-    return cell
-  }
-  
-  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return ships?.count ?? 0
-  }
-}
+//extension ShipViewController: UITableViewDataSource {
+//
+//  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//    let cell: ShipCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
+//    let ships = ships?[indexPath.row]
+//    return cell
+//  }
+//
+//  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//    return ships?.count ?? 0
+//  }
+//}
 

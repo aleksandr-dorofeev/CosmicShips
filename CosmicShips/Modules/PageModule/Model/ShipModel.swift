@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - WelcomeElement
-struct WelcomeElement: Codable {
+// MARK: - Ship
+struct Ship: Codable {
     let height: Diameter
     let diameter: Diameter
     let mass: Mass
@@ -154,5 +154,5 @@ struct CompositeFairing: Codable {
     let height, diameter: Diameter?
 }
 
-typealias ShipType = [WelcomeElement]
+typealias ShipType = [Ship]
  
